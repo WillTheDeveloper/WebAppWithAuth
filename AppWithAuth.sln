@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWithAuth", "AppWithAuth.csproj", "{C44C35AC-FE6A-4AC2-B046-9A8E4A1C6A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44C35AC-FE6A-4AC2-B046-9A8E4A1C6A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44C35AC-FE6A-4AC2-B046-9A8E4A1C6A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44C35AC-FE6A-4AC2-B046-9A8E4A1C6A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44C35AC-FE6A-4AC2-B046-9A8E4A1C6A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

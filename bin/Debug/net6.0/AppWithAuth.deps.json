@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AppWithAuth/1.0.0": {
         "dependencies": {
+          "AspNet.Security.OAuth.GitHub": "6.0.6",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.7",
           "Microsoft.AspNetCore.Identity.UI": "6.0.7",
@@ -16,6 +17,14 @@
         },
         "runtime": {
           "AppWithAuth.dll": {}
+        }
+      },
+      "AspNet.Security.OAuth.GitHub/6.0.6": {
+        "runtime": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {
+            "assemblyVersion": "6.0.6.0",
+            "fileVersion": "6.0.622.22058"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -420,6 +429,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNet.Security.OAuth.GitHub/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UrFvT5ockU475bU6+aIUNhY+tM+1pJYU7eIPGJai1go8JNFXQCjsoqyhKkUwN5rmtOzVjjUEUPyctouz4HGVZg==",
+      "path": "aspnet.security.oauth.github/6.0.6",
+      "hashPath": "aspnet.security.oauth.github.6.0.6.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

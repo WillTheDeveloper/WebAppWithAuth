@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AspNet.Security.OAuth.GitHub/6.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AspNet.Security.OAuth.GitHub.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -612,6 +624,20 @@
     }
   },
   "libraries": {
+    "AspNet.Security.OAuth.GitHub/6.0.6": {
+      "sha512": "UrFvT5ockU475bU6+aIUNhY+tM+1pJYU7eIPGJai1go8JNFXQCjsoqyhKkUwN5rmtOzVjjUEUPyctouz4HGVZg==",
+      "type": "package",
+      "path": "aspnet.security.oauth.github/6.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "aspnet.security.oauth.github.6.0.6.nupkg.sha512",
+        "aspnet.security.oauth.github.nuspec",
+        "lib/net6.0/AspNet.Security.OAuth.GitHub.dll",
+        "lib/net6.0/AspNet.Security.OAuth.GitHub.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -1567,6 +1593,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AspNet.Security.OAuth.GitHub >= 6.0.6",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.7",
@@ -1618,6 +1645,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AspNet.Security.OAuth.GitHub": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.7, )"

@@ -63,3 +63,4 @@ D:\Projects\Web\Personal Development\AppWithAuth\obj\Debug\net6.0\AppWithAuth.pd
 D:\Projects\Web\Personal Development\AppWithAuth\obj\Debug\net6.0\AppWithAuth.genruntimeconfig.cache
 D:\Projects\Web\Personal Development\AppWithAuth\obj\Debug\net6.0\ref\AppWithAuth.dll
 D:\Projects\Web\Personal Development\AppWithAuth\bin\Debug\net6.0\AspNet.Security.OAuth.GitHub.dll
+D:\Projects\Web\Personal Development\AppWithAuth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Twitter.dll

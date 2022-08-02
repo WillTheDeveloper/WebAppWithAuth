@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3cX7xg8AJ0sZk1l/6GGHqA7gIFZ/3M6Y8eY0Y+rp6I7icwvXlYthPMYTKv30XbgMm3Zv5svoQzmLufD1lysP5Q==",
+  "dgSpecHash": "CPwMxqbrrDziAIixBHjaYMfVwB3wpsyt5/8Rq0M1PIVE6vIHwAMa6zY9nviTtdLACWF77ea7C4zgtPXwzH4zcg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Web\\Personal Development\\AppWithAuth\\AppWithAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willburton\\.nuget\\packages\\aspnet.security.oauth.github\\6.0.6\\aspnet.security.oauth.github.6.0.6.nupkg.sha512",
     "C:\\Users\\willburton\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\willburton\\.nuget\\packages\\microsoft.aspnetcore.authentication.twitter\\6.0.7\\microsoft.aspnetcore.authentication.twitter.6.0.7.nupkg.sha512",
     "C:\\Users\\willburton\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.7\\microsoft.aspnetcore.cryptography.internal.6.0.7.nupkg.sha512",
     "C:\\Users\\willburton\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.7\\microsoft.aspnetcore.cryptography.keyderivation.6.0.7.nupkg.sha512",
     "C:\\Users\\willburton\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.7\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.7.nupkg.sha512",

@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "Microsoft.AspNetCore.Authentication.Twitter": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"

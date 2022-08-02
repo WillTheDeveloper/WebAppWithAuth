@@ -23,6 +23,18 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Twitter/6.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.7": {
         "type": "package",
         "compile": {
@@ -652,6 +664,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Twitter/6.0.7": {
+      "sha512": "hKmWnX3CBBgSsmRHKy9jZi0mO2XMbPKSNUEMlR5Wh3YNly4xG/Vsw4QN5EdLG0Ukr8eI9aPf3uxA2tEQXvpUlQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.twitter/6.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Twitter.xml",
+        "microsoft.aspnetcore.authentication.twitter.6.0.7.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.twitter.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.7": {
@@ -1594,6 +1621,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AspNet.Security.OAuth.GitHub >= 6.0.6",
+      "Microsoft.AspNetCore.Authentication.Twitter >= 6.0.7",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.7",
@@ -1648,6 +1676,10 @@
           "AspNet.Security.OAuth.GitHub": {
             "target": "Package",
             "version": "[6.0.6, )"
+          },
+          "Microsoft.AspNetCore.Authentication.Twitter": {
+            "target": "Package",
+            "version": "[6.0.7, )"
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
